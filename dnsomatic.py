@@ -18,7 +18,7 @@ def set_ip(text):
         ip = new_ip
         log.info("NEW_IP:" + new_ip)
     else:
-        LOG.info("NO_CHANGE:" + ip)
+        log.info("NO_CHANGE:" + ip)
 
 while True:
     r = requests.get('https://updates.dnsomatic.com/nic/update', auth=(username, password))
