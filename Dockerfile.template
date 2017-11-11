@@ -1,4 +1,4 @@
-FROM python:3-onbuild
+FROM resin/%%RESIN_MACHINE_NAME%%-alpine-python:3-onbuild
 
 COPY dnsomatic.py /
 COPY logging.conf /
