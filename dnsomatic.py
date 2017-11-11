@@ -28,5 +28,5 @@ while True:
     else:
         set_ip(r.text)
 
-    time.sleep( lapse )
-
+    time.sleep(lapse)
+    
